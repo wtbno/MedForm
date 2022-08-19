@@ -51,5 +51,10 @@ namespace Project
         {
 
         }
+
+        private void Senha_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

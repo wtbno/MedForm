@@ -42,6 +42,7 @@
             // 
             resources.ApplyResources(this.Senha, "Senha");
             this.Senha.Name = "Senha";
+            this.Senha.TextChanged += new System.EventHandler(this.Senha_TextChanged);
             // 
             // enterBtn
             // 

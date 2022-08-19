@@ -121,10 +121,13 @@
   <data name="Senha.Location" type="System.Drawing.Point, System.Drawing">
     <value>243, 187</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Senha.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
   <data name="Senha.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 20</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Senha.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
