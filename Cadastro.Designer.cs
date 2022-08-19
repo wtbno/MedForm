@@ -30,10 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.Senha = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.enterBtn = new System.Windows.Forms.Button();
+            this.newUser = new System.Windows.Forms.Button();
             this.Email = new System.Windows.Forms.TextBox();
             this.User = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.User)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,21 +43,20 @@
             resources.ApplyResources(this.Senha, "Senha");
             this.Senha.Name = "Senha";
             // 
-            // button1
+            // enterBtn
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.UseWaitCursor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.enterBtn.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            resources.ApplyResources(this.enterBtn, "enterBtn");
+            this.enterBtn.Name = "enterBtn";
+            this.enterBtn.UseVisualStyleBackColor = false;
+            this.enterBtn.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // newUser
             // 
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            resources.ApplyResources(this.newUser, "newUser");
+            this.newUser.Name = "newUser";
+            this.newUser.UseVisualStyleBackColor = true;
+            this.newUser.Click += new System.EventHandler(this.button2_Click);
             // 
             // Email
             // 
@@ -72,13 +72,20 @@
             this.User.TabStop = false;
             this.User.Click += new System.EventHandler(this.User_Click);
             // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            // 
             // Login
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.User);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.newUser);
+            this.Controls.Add(this.enterBtn);
             this.Controls.Add(this.Senha);
             this.Controls.Add(this.Email);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -92,10 +99,11 @@
 
         #endregion
         private System.Windows.Forms.TextBox Senha;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button enterBtn;
+        private System.Windows.Forms.Button newUser;
         private System.Windows.Forms.TextBox Email;
         private System.Windows.Forms.PictureBox User;
+        private System.Windows.Forms.Label label1;
     }
 }
 
