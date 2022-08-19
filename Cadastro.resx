@@ -117,45 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Senha.Location" type="System.Drawing.Point, System.Drawing">
-    <value>243, 187</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Senha.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
-    <value>*</value>
-  </data>
-  <data name="Senha.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 20</value>
-  </data>
-  <data name="Senha.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="Senha.Text" xml:space="preserve">
-    <value>Insira sua senha</value>
-  </data>
-  <data name="&gt;&gt;Senha.Name" xml:space="preserve">
-    <value>Senha</value>
-  </data>
-  <data name="&gt;&gt;Senha.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Senha.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Senha.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="enterBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="enterBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>243, 236</value>
+    <value>243, 286</value>
   </data>
   <data name="enterBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 40</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="enterBtn.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -172,13 +145,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;enterBtn.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>6</value>
   </data>
   <data name="newUser.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="newUser.Location" type="System.Drawing.Point, System.Drawing">
-    <value>243, 357</value>
+    <value>243, 376</value>
   </data>
   <data name="newUser.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 23</value>
@@ -187,7 +160,7 @@
     <value>3</value>
   </data>
   <data name="newUser.Text" xml:space="preserve">
-    <value>Cadastre-se</value>
+    <value>Recuperar senha</value>
   </data>
   <data name="&gt;&gt;newUser.Name" xml:space="preserve">
     <value>newUser</value>
@@ -199,19 +172,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;newUser.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="Email.Location" type="System.Drawing.Point, System.Drawing">
-    <value>243, 150</value>
+    <value>243, 168</value>
   </data>
   <data name="Email.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 20</value>
   </data>
   <data name="Email.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
-  </data>
-  <data name="Email.Text" xml:space="preserve">
-    <value>Insira seu Email</value>
   </data>
   <data name="&gt;&gt;Email.Name" xml:space="preserve">
     <value>Email</value>
@@ -223,7 +193,122 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Email.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 360</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Esqueceu sua senha?</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 230</value>
+  </data>
+  <data name="textBox2.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 20</value>
+  </data>
+  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
+    <value>textBox2</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="passwordLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="passwordLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="passwordLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 214</value>
+  </data>
+  <data name="passwordLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="passwordLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="passwordLabel.Text" xml:space="preserve">
+    <value>Senha
+</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel.Name" xml:space="preserve">
+    <value>passwordLabel</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="emailLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="emailLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="emailLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 152</value>
+  </data>
+  <data name="emailLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="emailLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="emailLabel.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="&gt;&gt;emailLabel.Name" xml:space="preserve">
+    <value>emailLabel</value>
+  </data>
+  <data name="&gt;&gt;emailLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;emailLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;emailLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="User.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Center</value>
@@ -262,10 +347,10 @@
     <value>NoControl</value>
   </data>
   <data name="User.Location" type="System.Drawing.Point, System.Drawing">
-    <value>285, 30</value>
+    <value>289, 49</value>
   </data>
   <data name="User.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 100</value>
+    <value>64, 64</value>
   </data>
   <data name="User.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>AutoSize</value>
@@ -283,34 +368,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;User.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>240, 341</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 13</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Novo por aqui?</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>4</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -350,6 +408,9 @@
         AAAAAAAA//8AAP//AAD4HwAA4AcAAOAHAADAAwAAwAMAAIADAACAAwAAwAMAAMADAADgBwAA4AcAAPgf
         AAD//wAA//8AAA==
 </value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
