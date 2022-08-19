@@ -31,12 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.enterBtn = new System.Windows.Forms.Button();
             this.newUser = new System.Windows.Forms.Button();
-            this.Email = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.passwordLabel = new System.Windows.Forms.Label();
             this.emailLabel = new System.Windows.Forms.Label();
             this.User = new System.Windows.Forms.PictureBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.User)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,14 +54,6 @@
             this.newUser.Name = "newUser";
             this.newUser.UseVisualStyleBackColor = true;
             this.newUser.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // Email
-            // 
-            this.Email.AcceptsTab = true;
-            resources.ApplyResources(this.Email, "Email");
-            this.Email.Name = "Email";
-            this.Email.ShortcutsEnabled = false;
-            this.Email.TextChanged += new System.EventHandler(this.textBox1);
             // 
             // label1
             // 
@@ -93,10 +85,16 @@
             this.User.TabStop = false;
             this.User.Click += new System.EventHandler(this.User_Click);
             // 
+            // textBox3
+            // 
+            resources.ApplyResources(this.textBox3, "textBox3");
+            this.textBox3.Name = "textBox3";
+            // 
             // Login
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.emailLabel);
             this.Controls.Add(this.passwordLabel);
             this.Controls.Add(this.textBox2);
@@ -104,7 +102,6 @@
             this.Controls.Add(this.User);
             this.Controls.Add(this.newUser);
             this.Controls.Add(this.enterBtn);
-            this.Controls.Add(this.Email);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -117,12 +114,12 @@
         #endregion
         private System.Windows.Forms.Button enterBtn;
         private System.Windows.Forms.Button newUser;
-        private System.Windows.Forms.TextBox Email;
         private System.Windows.Forms.PictureBox User;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label passwordLabel;
         private System.Windows.Forms.Label emailLabel;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
 

@@ -22,15 +22,18 @@ namespace Project
 
         }
 
-        private void textBox1(object sender, EventArgs e)
-        {
-           
-                
-        }
+     
 
         private void button1_Click(object sender, EventArgs e)
         {
-        
+            GeralCode code = new GeralCode();
+            if (code.emptyField(textBox3, "Email do usuário"))
+                return;
+                MessageBox.Show("Login realizado");
+            if (code.emptyField(textBox2, "Senha do usuário"))
+                return;
+            MessageBox.Show("Login realizado");
+
         }
 
         private void label1_Click(object sender, EventArgs e)
