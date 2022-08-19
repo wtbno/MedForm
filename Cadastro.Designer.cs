@@ -33,8 +33,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.Email = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.User = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.User)).BeginInit();
             this.SuspendLayout();
             // 
             // Senha
@@ -64,24 +64,27 @@
             this.Email.Name = "Email";
             this.Email.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // pictureBox1
+            // User
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
+            resources.ApplyResources(this.User, "User");
+            this.User.Image = global::Project.Properties.Resources.users;
+            this.User.Name = "User";
+            this.User.TabStop = false;
+            this.User.Click += new System.EventHandler(this.User_Click);
             // 
             // Login
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.User);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Senha);
             this.Controls.Add(this.Email);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.User)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -92,7 +95,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox Email;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox User;
     }
 }
 
